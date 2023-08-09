@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&family=Ubuntu&display=swap');
+
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    border: none;
+    padding: 1rem;
+    border-radius: 15px;
+    font-weight: bolder;
+    transition: all 500ms ease;
+}
+
+button:hover {
+    filter: invert(.9);
+    transform: scale(1.1);
+}
